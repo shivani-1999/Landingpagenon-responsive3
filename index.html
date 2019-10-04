@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        html,body
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+            width: 100%;
+            height: 100vh;
+            /* border: 2px solid green; */
+        }
+        .main1
+        {
+            width: 100%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .main2
+        {
+            width: 100%;
+            height: 100%;
+            /* border: 2px solid yellow; */
+            display: flex;
+        }
+        .main21,.main22
+        {
+            width: 50%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .nav1
+        {
+            width: 100%;
+            height: 5%;
+            /* border: 2px solid purple; */
+        }
+        .nav2
+        {
+            width: 100%;
+            height: 15%;
+            /* border: 2px solid yellowgreen; */
+            font-size: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav3
+        {
+            width: 100%;
+            height: 5%;
+            /* border: 2px solid brown; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav31,.nav32,.nav33,.nav34,.nav35,.nav36
+        {
+            width: 10%;
+            height: 100%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+       .a
+       {
+           text-decoration: none;
+           color: black;
+           width: 100%;
+           height: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+       }
+        .nav4
+        {
+            height: 70%;
+            width: 100%;
+            /* border: 2px solid blue; */
+            background-image: url('american-best-friends-blond-hair-1574650.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .nav5
+        {
+            width: 100%;
+            height: 5%;
+            /* border: 2px solid teal; */
+            display: flex;
+        }
+        .nav51
+        {
+            width: 30%;
+            height: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: flex-end;
+            color: red; 
+        }
+        .nav52
+        {
+            width: 70%;
+            height: 100%;
+            padding-left: 2%;
+            color: grey;
+        }
+        .img1
+        {
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid red; */
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img2
+        {
+            width: 100%;
+            height: 80%;
+            /* border: 2px solid yellow; */
+            position: relative;
+            
+        }
+        .img21
+        {
+            width: 80%;
+            height: 100%;
+            /* border: 2px solid black; */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            background-image: url('activity-beauty-blue-61129.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .img3
+        {
+            width: 100%;
+            height: 20%;
+            /* border: 2px solid black; */
+            display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .img3>input
+        {
+            width: 80%;
+            height: 30%;
+            font-size: 20px;
+            padding-left: 1%;
+        }
+        .img3>label
+        {
+            width: 7%;
+            height: 30%;
+            display: inline-block;
+            right: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid grey;
+        }
+        .img4
+        {
+            width: 100%;
+            height: 80%;
+            /* border: 3px solid blue; */
+        }
+        .main22
+        {
+            position: relative;
+        }
+        .img41
+        {
+            width: 100%;
+            height: 10%;
+            /* border: 2px solid black; */
+            font-size: 40px;
+            text-align: center;
+        }
+        .img42
+        {
+            width: 100%;
+            height: 30%;
+            /* border: 2px solid red; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .img421
+        {
+            /* border: 2px solid teal; */
+            width: 22%;
+            height: 100%;
+            border-radius: 50%;
+            background-image: url('190605.png');
+            background-size: 100% 100%;
+        }
+        .img43
+        {
+            width: 100%;
+            height: 5%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+        .img431
+        {
+            width: 50%;
+            height: 100%;
+            color: red;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center; 
+        }
+        .img432
+        {
+            width: 50%;
+            height: 100%;
+            color: grey;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+        }
+        .img44
+        {
+            width: 100%;
+            height: 25%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            font-size: 20px;
+            padding: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="nav1"></div>
+            <div class="nav2">Blaskan</div>
+            <hr>
+            <div class="nav3">
+                <div class="nav31"><a href="#" class="a"><b>What's New</b></a></div>
+                <div class="nav32"><a href="#" class="a"><b>About Us</b></a></div>
+                <div class="nav33"><a href="#" class="a"><b>Lifestyle</b></a></div>
+                <div class="nav34"><a href="#" class="a"><b>Travel</b></a></div>
+                <div class="nav35"><a href="#" class="a"><b>Features</b></a></div>
+                <div class="nav36"><a href="#" class="a"><b>Blog</b></a></div>
+            </div>
+            <div class="nav4"></div>
+            <div class="nav5">
+                <div class="nav51">by Jane Smith</div>
+                <div class="nav52">february 22, 2019</div>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="main21">
+                <div class="img1">Explore new places everyday</div>
+                <div class="img2">
+                    <div class="img21"></div>
+                </div>
+            </div>
+            <div class="main22">
+                <div class="img3">
+                    <input type="search" placeholder="Search here" id="abc"><label for="abc"><i class="fas fa-search"></i></label>
+                </div>
+                <div class="img4">
+                    <div class="img41">About Author</div>
+                    <div class="img42">
+                        <div class="img421"></div>
+                    </div>
+                    <div class="img43">
+                        <div class="img431">Lily Smith&nbsp;&nbsp;&nbsp;</div>
+                        <div class="img432">-Traveler</div>
+                    </div>
+                    <div class="img44">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex vel recusandae distinctio culpa beatae eveniet enim facere quas sunt similique asperiores quia id amet harum, minus cumque animi modi natus alias nulla. Ut veritatis quis ab expedita? Minima ipsum similique optio rerum, cumque possimus deleniti ratione dolor sunt dolorem fugiat.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
